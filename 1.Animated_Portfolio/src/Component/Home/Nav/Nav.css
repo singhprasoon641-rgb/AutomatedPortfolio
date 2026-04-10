@@ -5,6 +5,19 @@ nav{
     padding: 40px;
     height: 80px;
     width: 100%;
+    position: fixed;
+    background-color: black;
+}
+nav ul a{
+    cursor: pointer;
+}
+nav ul a:hover{
+        color: rgb(77, 230, 230);
+    border-bottom: 2px solid white;
+}
+.active{
+    color: rgb(77, 230, 230);
+    border-bottom: 2px solid white;
 }
 ul{
     display: flex;
@@ -21,4 +34,42 @@ nav h1{
     white);
     background-clip: text;
     color: transparent;
+}
+.hamburger{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    flex-direction: column;
+    display: none;
+}
+.ham{
+    width: 40px;
+    height: 2px;
+    background-color: aliceblue;
+}
+.mobilemenu{
+    position: absolute;
+    width: 100%;
+    top: 80px;
+    height: 100vh;
+    background-color: rgba(17, 20, 23, 0.477);
+    backdrop-filter: blur(7px);
+    right: 0;
+    transform: translateX(100%);
+    flex-direction: column;
+    transition: all 0.5s;
+    gap: 50px;
+}
+.activemobile{
+    transform: translateX(0%);
+}
+@media (max-width:750px) {
+    .desktopmenu{
+        display: none;
+    }
+    .hamburger{
+        display: flex;
+    }
+    
 }
