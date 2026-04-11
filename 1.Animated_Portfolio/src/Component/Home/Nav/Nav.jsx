@@ -16,6 +16,7 @@ function Nav() {
       </ul> 
       <div className="hamburger" ref={menu} onClick={()=>{
         mobile.current.classList.toggle("activemobile")
+        menu.current.classList.toggle("activeham")
       }
 
       }

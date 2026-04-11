@@ -1,5 +1,41 @@
 #home{
     width: 100%;
-    min-height: 100vh;
-    background-color: aqua;
+    min-height: 100%;
+    background-color: rgb(31, 41, 41);
+    display: flex;
+}
+.lefthome{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.righthome{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.righthome img{
+    width: 60%;
+    filter: drop-shadow(2px 2px 20px rgb(116, 201, 225));
+}
+.homedetail{
+    font-size: 2vmax;
+}
+.line1{
+    font-size: 0.8em;
+}
+.line2{
+    font-size: 2.5em;
+     background: linear-gradient(to right,rgb(66,180, 205),
+    white);
+    background-clip: text;
+    color: transparent;
+}
+.line3{
+    font-size: 1em;
 }

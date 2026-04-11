@@ -64,6 +64,19 @@ nav h1{
 .activemobile{
     transform: translateX(0%);
 }
+.active .ham:nth-child(1){
+    transform:rotate(45deg);
+    position: relative;
+    top: 8px;
+}
+.active .ham:nth-child(2){
+    opacity: 0;
+}
+.active .ham:nth-child(3){
+    transform:rotate(-45deg);
+    position: relative;
+    top: -12px;
+}
 @media (max-width:750px) {
     .desktopmenu{
         display: none;
