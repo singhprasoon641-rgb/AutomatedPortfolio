@@ -22,6 +22,7 @@ function Home() {
   delaySpeed={1000}
 />
   </div>
+  <button>HIRE ME</button>
 </div>
 </div>
 <div className="righthome">
