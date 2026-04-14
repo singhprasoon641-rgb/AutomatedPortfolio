@@ -20,7 +20,7 @@ nav ul a:hover{
     color: rgb(77, 230, 230);
     border-bottom: 2px solid white;
 }
-ul{
+ nav ul{
     display: flex;
     align-items: center;
     justify-content: center;
