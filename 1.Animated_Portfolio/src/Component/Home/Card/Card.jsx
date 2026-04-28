@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Card.css"
-import mern from "../assets/mern.png"
+import mern from "../../../assets/mern.png";
 function Card(title,image) {
   return (
     <div className="card">

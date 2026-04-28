@@ -8,6 +8,7 @@ function Nav() {
   return (
     <nav>
       <h1>PORTFOLIO</h1>
+      
       <ul className='desktopmenu'>
         <Link to="home" smooth={true} duration={500} activeClass='activ' spy={true}> <li>Home</li></Link>
         <Link to="about" smooth={true} duration={500} activeClass='active' spy={true}><li>About</li></Link>
@@ -20,6 +21,7 @@ function Nav() {
       }
 
       }
+      
       >
         <div className="ham"></div>
         <div className="ham"></div>
