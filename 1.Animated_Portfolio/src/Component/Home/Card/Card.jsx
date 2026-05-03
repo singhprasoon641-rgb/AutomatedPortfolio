@@ -8,6 +8,9 @@ function Card(title,image) {
       <div className="hovercard">
         <img src={mern} alt="" />
       </div>
+       <div className="card">
+      <h1>Mern Stack Web Developer</h1> 
+      </div>
     </div>
   )
 }
